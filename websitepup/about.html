@@ -12,20 +12,33 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-    <div class="navbar">
-        <a href="./index.html" class="logo-container">
-            <img src="./assets/taguigschoollogo.png"/>
-        </a>
-        <div class="logo-text">
-            Polytechnic University of the Philippines - Taguig Campus
+<div class="navbar">
+    <a href="./index.html" class="logo-container">
+        <img src="./assets/taguigschoollogo.png"/>
+    </a>
+    <div class="logo-text">
+        Polytechnic University of the Philippines - Taguig Campus
+    </div>
+    <div class="search-bar">
+        <div class="search">
+            <input id="searchInput" type="text" autocomplete="off" placeholder="Search"/>
+            <button onclick="renderResult()">
+                <i class="fa fa-search" style="color: white;"></i>
+            </button>
         </div>
-        <div class="search-bar">
-            <div class="search">
-                <input type="text" autocomplete="off" placeholder="Search"/>
-                <button onclick="renderResult()">
-                    <i class="fa fa-search" style="color: white;"></i>
-                </button>
-            </div>
+    </div>
+    <div id="iconTrigger" class="icon-container hide-icon">
+        <i id="icon" class="fa fa-bars"></i>
+    </div>
+    <ul class="menu-container hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
            
         </div>
         <div id="iconTrigger" class="icon-container hide-icon">
