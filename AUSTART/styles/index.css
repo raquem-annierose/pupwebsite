@@ -257,6 +257,15 @@ input:focus, textarea:focus, select:focus {
   height: 80%;
   width: auto;
 }
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: darkred;
+}
 .navbar .menu-container {
   grid-column: 3/4;
   display: grid;
