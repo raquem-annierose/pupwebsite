@@ -228,7 +228,7 @@ input:focus, textarea:focus, select:focus {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: none;
-  background-color: orange;
+  background-color: red;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -458,4 +458,36 @@ input:focus, textarea:focus, select:focus {
     display: grid;
     align-items: center;
   }
+
+  .portrait-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.landscape-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.portrait {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.portrait img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
 }/*# sourceMappingURL=index.css.map */
